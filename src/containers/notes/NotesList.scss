@@ -1,13 +1,11 @@
 @import "../../css/variables";
 
 .note-list-layout {
-  background: gray;
+  background: #BCAAA4;
   width: 400px;
-  height: calc(100vh - 10px);
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  border-bottom: none;
 }
 
 .note-list {
@@ -39,7 +37,7 @@
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   cursor: pointer;
-  background-color: darkgray;
+  background-color: #A1887F;
 }
 .hoverable-list-item:hover {
   color: black;

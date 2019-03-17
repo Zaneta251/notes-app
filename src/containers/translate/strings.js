@@ -8,9 +8,11 @@ const lang = {
     note: "Note",
     BSC: "BSC",
     cancel: "Cancel",
-    delete: "delete",
+    delete: "Delete",
     edit: "Edit",
-    save: "Save"
+    save: "Save",
+    editSuccess: "Note successfully edited!",
+    createSuccess: "Note successfully created!"
   },
   cz: {
     title: "Aplikace pro spravu poznamek",
@@ -21,7 +23,9 @@ const lang = {
     cancel: "Zrusit",
     delete: "Vymazat",
     edit: "Upravit",
-    save: "Ulozit"
+    save: "Ulozit",
+    editSuccess: "Poznamka uspesne upravena!",
+    createSuccess: "Poznamka uspesne vytvorena!"
   }
 };
 

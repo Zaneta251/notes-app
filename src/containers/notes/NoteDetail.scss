@@ -1,15 +1,19 @@
 @import "../../css/variables";
 
 .note-detail-layout {
-  background: black;
+  background: #D7CCC8;
   width: 100%;
 }
 
 .note-detail {
   height: 100%;
   max-width: 100%;
-  margin: auto;
   display: block;
+  margin: 20px;
+  background: black;
+  background: ghostwhite;
+  color: black;
+  padding: 10px;
 }
 
 .action-buttons {
@@ -19,7 +23,20 @@
   margin: 5px;
 }
 
+.text-area {
+  height: 90vh;
+}
+
 .itemButtons button {
   display: inline-block;
   margin-left: 4px;
+}
+
+.bsc-text {
+  font-size: 200px;
+  color: white;
+  text-shadow: 3px 2px black;
+  text-align: center;
+  position: relative;
+  top: 35%;
 }

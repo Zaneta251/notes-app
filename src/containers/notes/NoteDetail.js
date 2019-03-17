@@ -2,7 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { Button, Input } from "antd";
-import logo from '../../logo.svg';
 import "./NoteDetail.scss";
 import { addNewNote, setSelectedNote, setCreateFlag, deleteNote, editNote } from '../main/actions';
 import { strings } from "../translate/strings";
@@ -54,7 +53,7 @@ class NoteDetail extends React.Component {
       <div className="note-detail-layout">
         {selectedNote ?
           createFlag ?
-            <div>
+            <div className="text-area">
               <TextArea
                 style={{ height: "90%", width: "100%" }}
                 placeholder="Add new note ... "
@@ -69,16 +68,16 @@ class NoteDetail extends React.Component {
             </div>
             :
             <div>
-              {selectedNote.title}
+              <div className="note-detail">{selectedNote.title}</div>
               <div className="action-buttons">
                 <Button onClick={() => this.props.setSelectedNote(null)}>{strings.cancel}</Button>
-                <Button onClick={this.deleteNote}>Delete</Button>
+                <Button onClick={this.deleteNote}>{strings.delete}</Button>
                 <Button onClick={() => this.editNote(selectedNote)}>{strings.edit}</Button>
               </div>
             </div>
           :
           createFlag ?
-            <div>
+            <div className="text-area">
               <TextArea
                 style={{ height: "90%", width: "100%" }}
                 placeholder="Add new note ... "
@@ -91,7 +90,7 @@ class NoteDetail extends React.Component {
               </div>
             </div>
             :
-            <div>{strings.BSC}</div>
+            <div className="bsc-text">{strings.BSC}</div>
         }
       </div>
     );

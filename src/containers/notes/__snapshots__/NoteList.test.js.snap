@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`renders correctly 2`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`renders correctly again 1`] = `
+<div
+  class="note-list-layout"
+>
+  <div
+    class="scrollable-container"
+    style="overflow-y:auto;max-height:100vh"
+  />
+</div>
+`;
+
+exports[`renders correctly again 2`] = `
+<div
+  class="note-detail-layout"
+>
+  <div
+    class="bsc-text"
+  >
+    BSC
+  </div>
+</div>
+`;
+
+exports[`renders correctly again 3`] = `
+<div
+  className="note-detail-layout"
+>
+  <div
+    className="bsc-text"
+  >
+    BSC
+  </div>
+</div>
+`;

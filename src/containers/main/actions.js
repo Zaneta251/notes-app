@@ -59,7 +59,7 @@ export const addNewNote = (note) => async (dispatch, getState) => {
     });
 
     if (fullResult.ok) {
-      message.success(strings.infrastructure.createItemSuccess);
+      message.success(strings.createSuccess);
       dispatch({
         type: SET_CREATE_FLAG,
         payload: false
@@ -83,7 +83,7 @@ export const editNote = (id) => async (dispatch) => {
     });
 
     if (fullResult.ok) {
-      message.success(strings.infrastructure.editItemSuccess);
+      message.success(strings.editSuccess);
       dispatch({
         type: SET_CREATE_FLAG,
         payload: false
