@@ -1,0 +1,58 @@
+@import "../../css/variables";
+
+.note-list-layout {
+  background: gray;
+  width: 400px;
+  height: calc(100vh - 10px);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  border-bottom: none;
+}
+
+.note-list {
+  height: 100%;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.note {
+  height: 50px;
+  border-color: black;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+.scrollable-container {
+  height: calc(100vh - 250px);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 100%;
+  border-bottom: none;
+}
+
+.hoverable-list-item {
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  background-color: darkgray;
+}
+.hoverable-list-item:hover {
+  color: black;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.hoverable-shadow {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.hoverable-shadow:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+}

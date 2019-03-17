@@ -1,0 +1,25 @@
+@import "../../css/variables";
+
+.note-detail-layout {
+  background: black;
+  width: 100%;
+}
+
+.note-detail {
+  height: 100%;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.action-buttons {
+  text-align: right;
+  position: absolute;
+  right: 5px;
+  margin: 5px;
+}
+
+.itemButtons button {
+  display: inline-block;
+  margin-left: 4px;
+}

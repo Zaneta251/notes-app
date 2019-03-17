@@ -1,0 +1,5 @@
+export const GET_NOTES_LIST = "GET_NOTES_LIST";
+export const EDIT_NOTE = "EDIT_NOTE";
+export const SET_SELECTED_NOTE = "SET_SELECTED_NOTE";
+export const SET_CREATE_FLAG = "SET_CREATE_FLAG";
+export const SET_LANGUAGE = "SET_LANGUAGE";

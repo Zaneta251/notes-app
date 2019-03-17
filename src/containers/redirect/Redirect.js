@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../../logo.svg';
+import './Redirect.css';
 
-class App extends Component {
+class Redirect extends Component {
   render() {
+    console.log("redirect");
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+      <div className="Redirect">
+        <header className="Redirect-header">
+          <img src={logo} className="Redirect-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <a
-            className="App-link"
+            className="Redirect-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,4 +26,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Redirect;
