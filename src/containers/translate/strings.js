@@ -4,7 +4,7 @@ const lang = {
   en: {
     title: "Application for notes managing",
     addNew: "Add new note",
-    add: "Pridat",
+    add: "Add",
     note: "Note",
     BSC: "BSC",
     cancel: "Cancel",
@@ -15,17 +15,17 @@ const lang = {
     createSuccess: "Note successfully created!"
   },
   cz: {
-    title: "Aplikace pro spravu poznamek",
-    addNew: "Pridat novou poznamku",
-    add: "Pridat",
-    note: "Poznamka",
+    title: "Aplikace pro vytváření a správu poznámek",
+    addNew: "Přidat novou poznámku",
+    add: "Přidat",
+    note: "Poznámka",
     BSC: "BSC",
-    cancel: "Zrusit",
+    cancel: "Zrušit",
     delete: "Vymazat",
     edit: "Upravit",
-    save: "Ulozit",
-    editSuccess: "Poznamka uspesne upravena!",
-    createSuccess: "Poznamka uspesne vytvorena!"
+    save: "Uložit",
+    editSuccess: "Poznámka úspěšně upravena!",
+    createSuccess: "Poznámka úspěšně vytvořena!"
   }
 };
 
