@@ -2,7 +2,7 @@ import LocalizedStrings from "react-localization";
 
 const lang = {
   en: {
-    title: "Application for notes managing",
+    title: "Application for creating and managing notes",
     addNew: "Add new note",
     add: "Add",
     note: "Note",
