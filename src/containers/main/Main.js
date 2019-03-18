@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import logo from '../../logo.svg';
 import './Main.scss';
 import NotesList from '../notes/NotesList';
 import NoteDetail from '../notes/NoteDetail';

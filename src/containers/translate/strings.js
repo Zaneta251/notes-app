@@ -3,9 +3,8 @@ import LocalizedStrings from "react-localization";
 const lang = {
   en: {
     title: "Application for creating and managing notes",
-    addNew: "Add new note",
+    addNew: "Add a new note",
     add: "Add",
-    note: "Note",
     BSC: "BSC",
     cancel: "Cancel",
     delete: "Delete",
@@ -18,7 +17,6 @@ const lang = {
     title: "Aplikace pro vytváření a správu poznámek",
     addNew: "Přidat novou poznámku",
     add: "Přidat",
-    note: "Poznámka",
     BSC: "BSC",
     cancel: "Zrušit",
     delete: "Vymazat",

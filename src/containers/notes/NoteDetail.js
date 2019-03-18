@@ -79,8 +79,8 @@ class NoteDetail extends React.Component {
           createFlag ?
             <div className="text-area">
               <TextArea
-                style={{ height: "90%", width: "100%" }}
-                placeholder="Add new note ... "
+                style={{ height: "95%", width: "100%" }}
+                placeholder="Add a new note ... "
                 value={this.state.newNote}
                 onChange={e => this.setState({ newNote: e.target.value })}
               />

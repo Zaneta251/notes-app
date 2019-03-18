@@ -23,12 +23,14 @@ class Header extends React.Component {
 
     return (
       <div className="header row">
-        <div>
+        <div className="title">
           <h1 className="flex-grow">{strings.title}</h1>
         </div>
-        <div>
+        <div className="add-button">
           <Button block type="primary" onClick={this.addNote}>{strings.addNew}</Button>
-          <RadioGroup onChange={this.changeLanguage} defaultValue={defLang}>
+        </div>
+        <div className="language">
+          <RadioGroup onChange={this.changeLanguage} defaultValue={defLang} buttonStyle="solid">
             <RadioButton style={{ padding: "0 5px" }} value="en">EN</RadioButton>
             <RadioButton style={{ padding: "0 5px" }} value="cz">CZ</RadioButton>
           </RadioGroup>

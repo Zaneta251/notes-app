@@ -1,8 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import { Col, Row, Button } from "antd";
-import { strings } from "../translate/strings";
+import { Icon } from "antd";
 import "./NotesList.scss";
 import { loadNotesList, setSelectedNote, setCreateFlag } from '../main/actions';
 
@@ -20,13 +19,9 @@ class NotesList extends React.Component {
             <div key={`area-${note.id}`}>
               <div className="hoverable-list-item note"
                 onClick={() => this.openDetail(note)}>
-                <Row>
-                  <Col span={15}>
-                    <div style={{ padding: "2px" }}>
-                      {strings.note}: {note.title}
-                    </div>
-                  </Col>
-                </Row>
+                <div style={{ padding: "2px" }}>
+                  <Icon style={{ margin: "10px" }} type="edit" />{note.title}
+                </div>
               </div>
             </div>
           ))}

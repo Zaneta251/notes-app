@@ -1,14 +1,29 @@
 
 .header {
-  background-color: #442C2E;
+  background-color: #001627;
   text-align: center;
   height: 80px;
   padding: 10px;
   align-items: center;
   justify-content: space-between;
+  color: #EEEEEE;
+
+  .title {
+    width: 78%;
+  }
+
+  .add-button {
+    width: 15%;
+  }
+
+  .language {
+    width: 5%;
+  }
 
   h1 {
     font-size: 30px;
     margin-left: 20px;
+    color: #EEEEEE;
+    float: left;
   }
 }

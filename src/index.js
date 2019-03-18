@@ -6,6 +6,8 @@ import { createStore } from "redux";
 import rootReducer from "./redux/reduxReducer";
 import reducerConf from "./redux/reduxConf";
 import "./main.scss";
+import "../node_modules/antd/dist/antd.less";
+import "../node_modules/antd/dist/antd.css";
 
 const store = createStore(rootReducer, reducerConf);
 
