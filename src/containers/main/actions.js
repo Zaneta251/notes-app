@@ -97,15 +97,27 @@ export const editNote = (id) => async (dispatch) => {
 };
 
 export const deleteNote = id => async (dispatch) => {
-  await fetch(`https://private-9aad-note10.apiary-mock.com/notes/${id}`, {
-    method: "DELETE",
-    headers: {
-      Accept: "application/json",
-      "Content-Type": "application/json"
-    }
-  });
+  try {
+    const fullResult = await fetch(`https://private-9aad-note10.apiary-mock.com/notes/${id}`, {
+      method: "DELETE",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json"
+      }
+    });
 
-  await loadNotesList()(dispatch);
+    if (fullResult.ok) {
+      message.success(strings.deleteSuccess);
+      dispatch({
+        type: SET_CREATE_FLAG,
+        payload: false
+      });
+      await loadNotesList()(dispatch);
+    }
+  } catch (e) {
+    message.error("Delete note failed");
+    throw e;
+  }
 };
 
 export const setLanguage = language => ({

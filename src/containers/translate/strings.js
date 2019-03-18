@@ -11,7 +11,8 @@ const lang = {
     edit: "Edit",
     save: "Save",
     editSuccess: "Note successfully edited!",
-    createSuccess: "Note successfully created!"
+    createSuccess: "Note successfully created!",
+    deleteSuccess: "Note successfully deleted!"
   },
   cz: {
     title: "Aplikace pro vytváření a správu poznámek",
@@ -23,7 +24,8 @@ const lang = {
     edit: "Upravit",
     save: "Uložit",
     editSuccess: "Poznámka úspěšně upravena!",
-    createSuccess: "Poznámka úspěšně vytvořena!"
+    createSuccess: "Poznámka úspěšně vytvořena!",
+    deleteSuccess: "Poznámka úspěšně vymazána!"
   }
 };
 
