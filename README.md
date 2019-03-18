@@ -28,12 +28,12 @@ Link: https://zaneta251.github.io/notes-app/#/
 Here are the options for redirect page. 
 
 1) localhost:9000/#/<b>redirect</b> <br>
-   https://zaneta251.github.io/notes-app/#/<b>redirect</b><br>
+   https://zaneta251.github.io/notes-app/#/redirect<br>
    - this will redirect you to page with react logo
    
    
 2) localhost:9000/#/<b>what-ever-you-want</b><br>
-   https://zaneta251.github.io/notes-app/#/<b>what-ever-you-want</b><br>
-After .../#/ type whatever you want to and you will be redirected to "Page not found"
+   https://zaneta251.github.io/notes-app/#/what-ever-you-want<br>
+   - After .../#/ type whatever you want to and you will be redirected to "Page not found"
    
     
