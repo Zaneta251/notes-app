@@ -1,6 +1,7 @@
 {
   "name": "zadanie",
   "version": "0.1.0",
+  "homepage": "https://Zaneta251.github.io/notes-app",
   "private": true,
   "dependencies": {
     "antd": "^3.15.0",
@@ -23,10 +24,10 @@
   "scripts": {
     "start": "PORT=9000 react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

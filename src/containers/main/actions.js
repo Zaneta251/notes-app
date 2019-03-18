@@ -9,7 +9,7 @@ import { strings } from "../translate/strings";
 
 export const loadNotesList = () => async (dispatch) => {
   try {
-    const fullResult = await fetch(`http://private-9aad-note10.apiary-mock.com/notes`, {
+    const fullResult = await fetch(`https://private-9aad-note10.apiary-mock.com/notes`, {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json"
@@ -49,7 +49,7 @@ export const addNewNote = (note) => async (dispatch, getState) => {
   };
 
   try {
-    const fullResult = await fetch(`http://private-9aad-note10.apiary-mock.com/notes`, {
+    const fullResult = await fetch(`https://private-9aad-note10.apiary-mock.com/notes`, {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json"
@@ -74,7 +74,7 @@ export const addNewNote = (note) => async (dispatch, getState) => {
 
 export const editNote = (id) => async (dispatch) => {
   try {
-    const fullResult = await fetch(`http://private-9aad-note10.apiary-mock.com/notes/${id}`, {
+    const fullResult = await fetch(`https://private-9aad-note10.apiary-mock.com/notes/${id}`, {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json"
@@ -97,7 +97,7 @@ export const editNote = (id) => async (dispatch) => {
 };
 
 export const deleteNote = id => async (dispatch) => {
-  await fetch(`http://private-9aad-note10.apiary-mock.com/notes/${id}`, {
+  await fetch(`https://private-9aad-note10.apiary-mock.com/notes/${id}`, {
     method: "DELETE",
     headers: {
       Accept: "application/json",
