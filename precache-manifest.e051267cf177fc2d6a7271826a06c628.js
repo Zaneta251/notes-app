@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/notes-app/static/js/runtime~main.2c46edbd.js"
   },
   {
-    "revision": "370612b6db198a656b15",
-    "url": "/notes-app/static/js/main.577494a4.chunk.js"
+    "revision": "9d28772ef034b91e0507",
+    "url": "/notes-app/static/js/main.b21de92f.chunk.js"
   },
   {
     "revision": "ccbe38b432b3eacdb78a",
     "url": "/notes-app/static/js/2.5351aae8.chunk.js"
   },
   {
-    "revision": "370612b6db198a656b15",
+    "revision": "9d28772ef034b91e0507",
     "url": "/notes-app/static/css/main.1c6e102b.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/notes-app/static/css/2.8ee328a9.chunk.css"
   },
   {
-    "revision": "eb060cefc317bb9ae82fedec7f3888ed",
+    "revision": "ab881115fae3253b83b431f0d02b827e",
     "url": "/notes-app/index.html"
   }
 ];
