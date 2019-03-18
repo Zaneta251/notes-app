@@ -10,8 +10,8 @@ export default class Routers extends React.Component {
     return (
       <HashRouter history={history}>
         <Switch>
-          <Route exact path="/" render={props => <Main {...props} />} />
-          <Route exact path="/redirect" render={props => <Redirect {...props} />} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} render={props => <Main {...props} />} />
+          <Route exact path={process.env.PUBLIC_URL + '/redirect'} render={props => <Redirect {...props} />} />
           <Route render={() => <h1>Page not found</h1>} />
         </Switch>
       </HashRouter>
